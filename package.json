@@ -1,0 +1,14 @@
+{
+  "name": "cloud-run-executor",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node handler.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^4.4.0",
+    "async": "^3.2.0",
+    "express": "^4.16.4",
+    "body-parser": "latest"
+  }
+}
